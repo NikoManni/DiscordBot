@@ -31,7 +31,7 @@ module.exports = {
                 .setDescription("uwu")
         ),
 	run: async ({ client, interaction }) => {
-		if (!interaction.member.voice.channel) return interaction.editReply("Mee kannulle tyhmä homo")
+		if (!interaction.member.voice.channel) return interaction.editReply("Mee kannulle")
 
 		const queue = await client.player.createQueue(interaction.guild)
 		if (!queue.connection) await queue.connect(interaction.member.voice.channel)
