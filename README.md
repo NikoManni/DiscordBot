@@ -1,3 +1,3 @@
 # DiscordBot
-Discord botti, joka soittaa musiikkia youtubesta
-(Remember to add config.js file which includes the bot API token)
+Discord botti, joka soittaa musiikkia youtubesta.
+(Add config.js file with bot API token)
